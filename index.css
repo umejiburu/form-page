@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: thistle ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 94, 0);
+  
+}
+
+.contain{
+  background: url(./img/image1.png);
+  width: 50vw;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width: 40%;
+}
+form input::placeholder{
+  color:rgb(255, 94, 0) ;
+}
+
+form input:last-child,
+fieldset{
+  margin-top: 10px;
+}
+
+.same{
+ display: block;
+ height: 25px;
+ margin-bottom: 10px;
+ width: 100%;
+}
